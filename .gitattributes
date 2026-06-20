@@ -1,0 +1,18 @@
+# Normalize line endings to LF on commit and prevent CRLF / CR-only files.
+# Documentation, scripts, and integration code should always be LF.
+* text=auto eol=lf
+
+# Force specific binary types even if they look like text.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.pyc binary
+*.pyd binary
+*.so binary
+*.dll binary
+*.exe binary

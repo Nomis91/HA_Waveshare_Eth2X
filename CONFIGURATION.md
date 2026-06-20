@@ -315,4 +315,3 @@ For configuration issues:
 2. Review [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 3. Enable debug logging in Home Assistant
 4. Check system logs for error messages
-       

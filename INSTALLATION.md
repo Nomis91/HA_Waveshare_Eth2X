@@ -242,4 +242,3 @@ To remove the integration:
 To uninstall completely:
 1. Delete `~/.homeassistant/custom_components/waveshare_eth2x/` folder
 2. Restart Home Assistant
-     

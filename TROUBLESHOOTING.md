@@ -661,4 +661,3 @@ Many issues are resolved by:
 3. Reloading the integration
 4. Checking RS485 connections
 5. Verifying network connectivity
-                           

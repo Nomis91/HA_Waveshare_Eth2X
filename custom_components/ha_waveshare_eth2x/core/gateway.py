@@ -339,4 +339,3 @@ class ConnectionPool:
         if gateway_id in self._connections:
             del self._connections[gateway_id]
             del self._request_queues[gateway_id]
-       

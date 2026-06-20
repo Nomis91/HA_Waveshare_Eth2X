@@ -241,4 +241,3 @@ This integration is provided as-is for Home Assistant users.
 ## Support
 
 For issues, questions, or feature requests, please refer to the Home Assistant community forums.
-    
