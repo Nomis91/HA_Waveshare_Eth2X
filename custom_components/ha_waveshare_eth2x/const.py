@@ -1,4 +1,4 @@
-"""Constants for Waveshare Eth2X integration."""
+"""Constants for HA Waveshare Eth2X integration."""
 
 DOMAIN = "waveshare_eth2x"
 MANUFACTURER = "Deye"

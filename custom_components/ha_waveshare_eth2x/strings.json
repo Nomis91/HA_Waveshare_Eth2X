@@ -1,10 +1,10 @@
 {
   "config": {
-    "flow_title": "Waveshare Eth2X Gateway Setup",
+    "flow_title": "HA Waveshare Eth2X Gateway Setup",
     "step": {
       "user": {
         "title": "Add Gateway",
-        "description": "Configure a new Waveshare Eth2X gateway"
+        "description": "Configure a new HA Waveshare Eth2X gateway"
       },
       "gateway_details": {
         "title": "Gateway Settings",

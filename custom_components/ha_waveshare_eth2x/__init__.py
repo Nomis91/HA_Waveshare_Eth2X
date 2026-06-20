@@ -1,7 +1,7 @@
-"""Waveshare Eth2X Integration for Home Assistant.
+"""HA Waveshare Eth2X Integration for Home Assistant.
 
 This integration provides real-time monitoring and control of Solar Inverters
-connected via Waveshare Eth2X devices.
+connected via HA Waveshare Eth2X devices.
 
 Features:
 - Support for multiple Eth2X gateways

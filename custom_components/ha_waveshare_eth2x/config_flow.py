@@ -34,7 +34,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class WaveshareEth2xConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for Waveshare Eth2X."""
+    """Handle a config flow for HA Waveshare Eth2X."""
 
     VERSION = 1
     CONNECTION_CLASS = config_entries.CONN_CLASS_LOCAL_POLL

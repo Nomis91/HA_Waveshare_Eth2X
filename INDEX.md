@@ -1,10 +1,10 @@
-# Project Index - Waveshare Eth2X Home Assistant Integration
+# Project Index - HA Waveshare Eth2X Home Assistant Integration
 
 ## 📋 Documentation Files
 
 ### Getting Started
 - **[README.md](README.md)** - Overview, features, quick start, and troubleshooting links
-- **[INSTALLATION.md](INSTALLATION.md)** - Detailed installation and Waveshare setup guide
+- **[INSTALLATION.md](INSTALLATION.md)** - Detailed installation and HA Waveshare Eth2X setup guide
 - **[CONFIGURATION.md](CONFIGURATION.md)** - Config flow walkthrough and advanced options
 
 ### Reference Documentation
@@ -14,7 +14,7 @@
 ## 🏗️ Integration Structure
 
 ```
-custom_components/waveshare_eth2x/
+custom_components/ha_waveshare_eth2x/
 │
 ├── Core Files
 │   ├── __init__.py                 Entry point, lifecycle management
@@ -118,7 +118,7 @@ custom_components/waveshare_eth2x/
 
 ## 🔧 Configuration Entry Point
 
-Main integration entry: [custom_components/waveshare_eth2x/__init__.py](custom_components/waveshare_eth2x/__init__.py)
+Main integration entry: [custom_components/ha_waveshare_eth2x/__init__.py](custom_components/ha_waveshare_eth2x/__init__.py)
 
 Key functions:
 - `async_setup()` - Legacy YAML setup (placeholder)
@@ -182,7 +182,7 @@ See [SUPPORTED_DEVICES.md](SUPPORTED_DEVICES.md) for complete device compatibili
 - Health & error diagnostics
 - UI-based configuration
 
-**Deployment Location**: `~/.homeassistant/custom_components/waveshare_eth2x/`
+**Deployment Location**: `~/.homeassistant/custom_components/ha_waveshare_eth2x/`
 
 **Minimum Home Assistant Version**: 2023.12.0
 
@@ -241,4 +241,4 @@ Provided as-is for Home Assistant community use.
 For issues, refer to:
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common solutions
 - Home Assistant Logs - Debug information
-- Integration diagnostics download - Detailed device info
+- Integration diagnostics download - Detailed d

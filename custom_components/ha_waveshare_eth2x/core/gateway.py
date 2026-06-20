@@ -1,4 +1,4 @@
-"""Gateway connection management for Waveshare Eth2X devices."""
+"""Gateway connection management for HA Waveshare Eth2X devices."""
 
 import asyncio
 import logging
@@ -12,7 +12,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class GatewayConnection:
-    """Manages TCP connection to a Waveshare Eth2X gateway."""
+    """Manages TCP connection to a HA Waveshare Eth2X gateway."""
 
     def __init__(
         self,
