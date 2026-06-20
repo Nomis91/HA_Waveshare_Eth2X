@@ -39,7 +39,7 @@ $total = $staged.Count + $newN
 # --- Build the commit message ---
 $lines = [System.Collections.Generic.List[string]]::new()
 
-$lines.Add("Update ha_waveshare_eth2x integration")
+$lines.Add("Update waveshare_eth2x integration")
 $lines.Add("")
 
 # Summary

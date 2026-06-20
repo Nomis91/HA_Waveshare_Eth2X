@@ -74,7 +74,7 @@ A complete Home Assistant integration for real-time monitoring and control of So
 
 1. Download the integration to your Home Assistant custom components:
    ```
-   custom_components/ha_waveshare_eth2x/
+   custom_components/waveshare_eth2x/
    ```
 
 2. Restart Home Assistant or reload custom components
@@ -220,9 +220,9 @@ Enable debug logging:
 ```yaml
 logger:
   logs:
-    custom_components.ha_waveshare_eth2x: debug
-    custom_components.ha_waveshare_eth2x.core: debug
-    custom_components.ha_waveshare_eth2x.coordinators: debug
+    custom_components.waveshare_eth2x: debug
+    custom_components.waveshare_eth2x.core: debug
+    custom_components.waveshare_eth2x.coordinators: debug
 ```
 
 ## Contributing

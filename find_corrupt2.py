@@ -5,7 +5,7 @@ import sys
 s1 = chr(91) + 'ADDRESS' + chr(93)
 s2 = chr(91) + 'PERSON_NAME' + chr(93)
 
-root = r'c:\Users\Simon\SynologyDrive\HomeAssistant\HA_Waveshare_Eth2X\custom_components\ha_waveshare_eth2x'
+root = r'c:\Users\Simon\SynologyDrive\HomeAssistant\HA_Waveshare_Eth2X\custom_components\waveshare_eth2x'
 
 found = False
 for dirpath, dirnames, filenames in os.walk(root):

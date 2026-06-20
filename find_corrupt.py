@@ -1,6 +1,6 @@
 import os
 
-root = r'c:\Users\Simon\SynologyDrive\HomeAssistant\HA_Waveshare_Eth2X\custom_components\ha_waveshare_eth2x'
+root = r'c:\Users\Simon\SynologyDrive\HomeAssistant\HA_Waveshare_Eth2X\custom_components\waveshare_eth2x'
 placeholder1 = '[ADDRESS]'
 placeholder2 = '[PERSON_NAME]'
 

@@ -258,7 +258,7 @@ To add support for additional inverter models:
 
 1. **Create Device Class**:
    ```python
-   # custom_components/ha_waveshare_eth2x/devices/my_inverter.py
+   # custom_components/waveshare_eth2x/devices/my_inverter.py
    from .base import BaseDevice, RegisterDef
    
    class MyInverter(BaseDevice):
@@ -277,13 +277,13 @@ To add support for additional inverter models:
 
 2. **Register Device**:
    ```python
-   # In custom_components/ha_waveshare_eth2x/devices/registry.py
+   # In custom_components/waveshare_eth2x/devices/registry.py
    DeviceRegistry.register("my_inverter", MyInverter)
    ```
 
 3. **Add to Signatures**:
    ```python
-   # In custom_components/ha_waveshare_eth2x/const.py
+   # In custom_components/waveshare_eth2x/const.py
    DEVICE_SIGNATURES = {
        0x9999: "my_inverter",
    }
